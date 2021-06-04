@@ -1,4 +1,4 @@
-# Score Matching Model for Unbounded Data Score
+# Ordered Risk and Confidence Regularization for Robust Training from Biased Dataset
 
 This code provides an pytorch implementation for the paper `Ordered Risk and Confidence Regularization for Robust Training from Biased Dataset`.
 Our paper introduces a debiasing algorithm, coined Ordered Risk and Confidence regularization (ORC), that relatively regularizes the confidence and the risk of the subgroups in the dataset.
@@ -25,7 +25,17 @@ seaborn
 ```
 ### Usage
 
-Train vanilla, V-REX (baseline), and ORC (our model) through `main.sh`
+Train vanilla, V-REX (baseline), and ORC (our model) through provided bash files.
+
+'train_mnist_vanilla.sh'
+'train_mnist_rex.sh'
+'train_mnist_orc.sh'
+
+'train_cifar10_vanilla.sh'
+'train_cifar10_rex.sh'
+'train_cifar10_orc.sh'
+
+
 
 ```sh
 main.py:
