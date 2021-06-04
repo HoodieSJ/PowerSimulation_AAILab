@@ -1,37 +1,31 @@
 # Score Matching Model for Unbounded Data Score
 
-This repo contains an official PyTorch implementation for the paper `Score Matching Model for Unbounded Data Score`.
+This code provides an pytorch implementation for the paper `Ordered Risk and Confidence Regularization for Robust Training from Biased Dataset`.
+Our paper introduces a debiasing algorithm, coined Ordered Risk and Confidence regularization (ORC), that relatively regularizes the confidence and the risk of the subgroups in the dataset.
 
 --------------------
-
-We propose a score network for unbounded score function that improves previous work on score-based generative models. The Unbounded Noise Conditional Score Network (UNCSN) estimates the score function while pertaining the local Lipschitzness. The sampled images for FFHQ 256/CelebA-HQ 256/LSUN Bedroom/LSUN Church datasets from UNCSN are given as below.
-
-![schematic](figure/sample_figures_256.jpg)
-
-We achieved a negative log-likelihood (bits per dim) of **2.06** (SOTA), a FID of **2.33**, and an Inception Score of **10.11** (SOTA) on CIFAR10. In addition, we achieved a FID of **7.16** (SOTA) on CelebA-HQ 256.
-
 ## How to run the code
 
 ### Dependencies
 
 The following dependencies are required to run the code.
 ```
-ml-collections==0.1.0
-tensorflow-gan==2.0.0
-tensorflow_io
-tensorflow_datasets==3.1.0
-tensorflow==2.4.0
-tensorflow-addons==0.12.0
-tensorboard==2.4.0
-absl-py==0.10.0
-torch>=1.7.0
-torchvision
-imageio
-ninja
+numpy==1.18.2
+opencv-python==4.2.0.32
+torch==1.7.0+cu110
+Pillow==7.1.1
+sacred==0.8.1
+scikit-image==0.15.0
+scikit-learn==0.21.3
+scipy==1.3.0
+tqdm==4.35.0
+Wand==0.5.8
+pandas
+seaborn
 ```
 ### Usage
 
-Train and evaluate our models through `main.py`.
+Train vanilla, V-REX (baseline), and ORC (our model) through `main.sh`
 
 ```sh
 main.py:
