@@ -25,19 +25,17 @@ seaborn
 ```
 ### Usage
 
-Train vanilla, V-REX (baseline), and ORC (our model) through provided bash files.
+1. First, install Colored-MNIST & Corrupted CIFAR-10 : `install_for_python36.sh`
 
-train vanilla model with Colored-MNIST : `train_mnist_vanilla.sh`
+2. Train vanilla, V-REX (baseline), and ORC (our model) through provided bash files.
 
-train V-REX model with Colored-MNIST : `train_mnist_rex.sh`
+- train vanilla model with Colored-MNIST : `train_mnist_vanilla.sh`
+- train V-REX model with Colored-MNIST : `train_mnist_rex.sh`
+- train ORC model with Colored-MNIST : `train_mnist_orc.sh`
 
-train ORC model with Colored-MNIST : `train_mnist_orc.sh`
-
-train vanilla model with Corrupted-CIFAR10 : `train_cifar10_vanilla.sh`
-
-train V-REX model with Corrupted-CIFAR10 : `train_cifar10_rex.sh`
-
-train ORC model with Corrupted-CIFAR10 : `train_cifar10_orc.sh`
+- train vanilla model with Corrupted-CIFAR10 : `train_cifar10_vanilla.sh`
+- train V-REX model with Corrupted-CIFAR10 : `train_cifar10_rex.sh`
+- train ORC model with Corrupted-CIFAR10 : `train_cifar10_orc.sh`
 
 
 ## Results
