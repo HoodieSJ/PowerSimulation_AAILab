@@ -27,30 +27,19 @@ seaborn
 
 Train vanilla, V-REX (baseline), and ORC (our model) through provided bash files.
 
-`train_mnist_vanilla.sh`
+train vanilla model with Colored-MNIST : `train_mnist_vanilla.sh`
 
-`train_mnist_rex.sh`
+train V-REX model with Colored-MNIST : `train_mnist_rex.sh`
 
-`train_mnist_orc.sh`
+train ORC model with Colored-MNIST : `train_mnist_orc.sh`
 
-`train_cifar10_vanilla.sh`
+train vanilla model with Corrupted-CIFAR10 : `train_cifar10_vanilla.sh`
 
-`train_cifar10_rex.sh`
+train V-REX model with Corrupted-CIFAR10 : `train_cifar10_rex.sh`
 
-`train_cifar10_orc.sh`
+train ORC model with Corrupted-CIFAR10 : `train_cifar10_orc.sh`
 
 
-
-```sh
-main.py:
-  --config: python file path for the training configuration
-    (default: 'None')
-  --assetdir: The folder name of assets for the stats file
-  --eval_folder: The folder name for storing evaluation results such as samples
-    (default: 'eval')
-  --mode: <train|eval> eval mode contains likelihood evaluation and FID/IS computation
-  --workdir: Working directory to save all artifacts such as checkpoints/samples/log
-```
 ## Results
 Out model achieves the following performance on:
 
