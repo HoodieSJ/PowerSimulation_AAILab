@@ -8,7 +8,7 @@ Our paper introduces a debiasing algorithm, coined Ordered Risk and Confidence r
 
 ### Dependencies
 
-The following dependencies are required to run the code.
+The following dependencies are required to run the code on Python3.6 version:
 ```
 numpy==1.18.2
 opencv-python==4.2.0.32
