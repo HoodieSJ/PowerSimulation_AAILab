@@ -29,13 +29,13 @@ seaborn
 
 2. Train vanilla, V-REX (baseline), and ORC (our model) through provided bash files.
 
-  - train vanilla model with Colored-MNIST : `train_mnist_vanilla.sh`
-  - train V-REX model with Colored-MNIST : `train_mnist_rex.sh`
-  - train ORC model with Colored-MNIST : `train_mnist_orc.sh`
+      - train vanilla model with Colored-MNIST : `train_mnist_vanilla.sh`
+      - train V-REX model with Colored-MNIST : `train_mnist_rex.sh`
+      - train ORC model with Colored-MNIST : `train_mnist_orc.sh`
 
-  - train vanilla model with Corrupted-CIFAR10 : `train_cifar10_vanilla.sh`
-  - train V-REX model with Corrupted-CIFAR10 : `train_cifar10_rex.sh`
-  - train ORC model with Corrupted-CIFAR10 : `train_cifar10_orc.sh`
+      - train vanilla model with Corrupted-CIFAR10 : `train_cifar10_vanilla.sh`
+      - train V-REX model with Corrupted-CIFAR10 : `train_cifar10_rex.sh`
+      - train ORC model with Corrupted-CIFAR10 : `train_cifar10_orc.sh`
 
 
 ## Results
