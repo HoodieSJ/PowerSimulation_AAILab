@@ -1,7 +1,9 @@
 # Ordered Risk and Confidence Regularization for Robust Training from Biased Dataset
 
 This code provides an pytorch implementation for the paper `Ordered Risk and Confidence Regularization for Robust Training from Biased Dataset`.
-Our paper introduces a debiasing algorithm, coined Ordered Risk and Confidence regularization (ORC), that relatively regularizes the confidence and the risk of the subgroups in the dataset. We provide experiments for various settings with skewedness and random seeds.
+Our paper introduces a debiasing algorithm, coined Ordered Risk and Confidence regularization (ORC), that relatively regularizes the confidence and the risk of the subgroups in the dataset. 
+
+We provide experiments on Colored-MNIST and Corrupted CIFAR-10 datasets with various skewedness and random seeds.
 
 --------------------
 ## How to run the code
@@ -40,9 +42,9 @@ seaborn
 
 ## Results
 
-Python file prints the test accuracy (whole accuracy, bias-aligned accuracy, bias-skewed accuracy) per validation steps
+Python file prints the test accuracy (whole accuracy, bias-aligned accuracy, bias-skewed accuracy) per validation steps.
 
-The results of each experiment is saved on following directory with pickle file format
+The results of each experiment is saved on following directory with pickle file format as follows:
 
 For the result of vanilla model with Colored-MNIST Skewed0.05 at random seed 0:
 'log/colored_mnist/result/ColoredMNIST-Skewed0.05-Severity1_var5/final_result_o.pickle'
