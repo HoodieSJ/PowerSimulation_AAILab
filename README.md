@@ -27,13 +27,17 @@ seaborn
 
 Train vanilla, V-REX (baseline), and ORC (our model) through provided bash files.
 
-'train_mnist_vanilla.sh'
-'train_mnist_rex.sh'
-'train_mnist_orc.sh'
+`train_mnist_vanilla.sh`
 
-'train_cifar10_vanilla.sh'
-'train_cifar10_rex.sh'
-'train_cifar10_orc.sh'
+`train_mnist_rex.sh`
+
+`train_mnist_orc.sh`
+
+`train_cifar10_vanilla.sh`
+
+`train_cifar10_rex.sh`
+
+`train_cifar10_orc.sh`
 
 
 
