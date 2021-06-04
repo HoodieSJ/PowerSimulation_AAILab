@@ -29,23 +29,16 @@ seaborn
 
 2. Train vanilla, V-REX (baseline), and ORC (our model) through provided bash files.
 
-- train vanilla model with Colored-MNIST : `train_mnist_vanilla.sh`
-- train V-REX model with Colored-MNIST : `train_mnist_rex.sh`
-- train ORC model with Colored-MNIST : `train_mnist_orc.sh`
+  - train vanilla model with Colored-MNIST : `train_mnist_vanilla.sh`
+  - train V-REX model with Colored-MNIST : `train_mnist_rex.sh`
+  - train ORC model with Colored-MNIST : `train_mnist_orc.sh`
 
-- train vanilla model with Corrupted-CIFAR10 : `train_cifar10_vanilla.sh`
-- train V-REX model with Corrupted-CIFAR10 : `train_cifar10_rex.sh`
-- train ORC model with Corrupted-CIFAR10 : `train_cifar10_orc.sh`
+  - train vanilla model with Corrupted-CIFAR10 : `train_cifar10_vanilla.sh`
+  - train V-REX model with Corrupted-CIFAR10 : `train_cifar10_rex.sh`
+  - train ORC model with Corrupted-CIFAR10 : `train_cifar10_orc.sh`
 
 
 ## Results
 Out model achieves the following performance on:
 
-### Image Generation on CIFAR10
 
-| Experimentsal Setup | NLL (BPD) | FID-50k | IS-50k |
-|:----------|:-------:|:----------:|:----------:|
-| `cifar10_uncsn_1e-3/` | 2.96 | 2.55 | 9.97 |
-| `cifar10_uncsn_deep_1e-3_mid/` | 2.83 | **2.33** | **10.11** |
-| `cifar10_uncsn_deep_1e-5_mid/` | **2.06** | 2.58 | 9.74 |
-| `cifar10_uncsn_deep_1e-5/` | 2.35 | 2.38 | 9.87 |
